@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Prickly Pear</title>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="app.scss" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn-icons-png.flaticon.com/512/3050/3050945.png"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-info">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">TROPIFY</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-center"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="py-3">
+      <div class="section3 px-3 rounded shadow container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="py-3">About me:</h2>
+            <p class="py-2 lead">
+              Hello Everyone, My name is Sam. I am a Biology student with a
+              passion for wildlife conservation and house plants! I have coded
+              this website to raise awarness for the many benefits of house
+              plants, they dont just look great! Read this blog to find how
+              houseplants can help you today.
+            </p>
+            <p class="py-1 lead">
+              In addition, I promise to donate 50% of all the profits from this
+              website to wildlife charities chosen by you when you have
+              subscribed to our newsletter!
+            </p>
+          </div>
+          <div class="col-lg-6 text-center py-3">
+            <img class="me img-fluid w-75" src="images/me.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-4">
+      <div class="py-2 container section3 shadow rounded">
+        <div>
+          <h3 class="py-3">Sign up to our Newsletter</h3>
+          <form name="contact" method="POST" data-netlify="true">
+            <!-- Name input -->
+            <div class="form-outline mb-4">
+              <input type="text" id="form5Example1" class="form-control" />
+              <label class="form-label" for="form5Example1">Name</label>
+            </div>
+
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form5Example2" class="form-control" />
+              <label class="form-label" for="form5Example2"
+                >Email address</label
+              >
+            </div>
+
+            <!-- Submit button -->
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary btn-block mb-4">
+                Subscribe
+              </button>
+            </div>
+          </form>
+          <input type="hidden" name="form-name" value="contact" />
+        </div>
+      </div>
+    </section>
+
+    <section class="py-4">
+      <div class="shadow rounded container section3 py-3">
+        <div class="row text-center">
+          <div class="col">
+            <a class="px-3" href="index.html">Home</a
+            ><a class="px-2" href="contact.html">Contact</a>
+            <a class="px-3" href="Blog.html">Blog</a>
+          </div>
+        </div>
+
+        <div class="row text-center py-3">
+          <div class="col">
+            <a href=""><i class="bi bi-twitter px-3 icon2"></i></a>
+            <a href=""><i class="bi bi-instagram px-3 icon1"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-4">
+      <div></div>
+    </section>
+  </body>
+</html>
